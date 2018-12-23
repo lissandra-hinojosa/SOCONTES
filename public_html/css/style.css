@@ -1,0 +1,304 @@
+/***************************** COLORS ******************************/
+/*
+	general-blue: #337AB7;
+	add-btn-blue-hover: #489ee7;
+	delete-btn-red: #c92d23;
+	delete-btn-red-hover:#ed4036;
+	edit-btn-green:#9CCC65;
+	edit-btn-breen-hover: #C5E1A5;
+	gentle-hover: #b2c7da;
+	gentle-hover-txt: #4e5152;
+	subtle-gray: #e2e4e5;
+*/
+.bg-color-blue {
+	background-color: #337AB7;
+}
+
+.bg-color-grey{
+	background-color: #e2e4e5;
+}
+
+.border-rounded{
+	border-radius: 5px;
+}
+
+.btn-primary{
+	background-color: #337AB7 !important;
+	border: 0px !important;
+}
+
+.btn-primary:hover{
+	background-color: #489ee7 !important;
+}
+
+/*******************************************************************/
+
+ul.list-group:after {
+  clear: both !important;
+  display: block !important;
+  content: "" !important;
+}
+
+.list-group-item {
+    float: left !important;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.add-table-btn{
+	margin-top: 15px;
+	width: 140px;
+	background-color: #337AB7 !important;
+	border: 0px !important; 
+}
+
+.add-table-btn:hover{
+	background-color: #489ee7 !important;
+}
+
+.btn-outline-info {
+    height: 80% !important;
+}
+
+/*Data Tables size*/
+.dataTables_wrapper{ 
+	font-size: 13px;
+}
+
+.delete-table-btn{
+	margin-top: 15px;
+	width: 140px;
+	background-color: #c92d23 !important;
+	border: 0px !important ;
+}
+
+.delete-table-btn:hover{
+	background-color: #ed4036 !important;
+}
+
+
+.edit-table-btn{
+	margin-top: 15px;
+	width: 140px;
+	background-color: #9CCC65 !important;
+	border: 0px !important ;
+}
+
+.edit-table-btn:hover{
+	background-color: #C5E1A5 !important;
+}
+
+.file-box-style{
+	padding: 20px 0px 0px 40px;
+	margin-bottom: 20px;
+	background-color: #e2e4e5;
+	border-radius: 5px;
+	margin: auto;
+}
+
+.fa-question-circle{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.fa-question-circle:hover{
+	cursor: pointer;
+	color:#337AB7;
+}
+
+.fa-check{
+	float: right;
+	color: #28A745;
+	margin-right: 0px !important; 
+	padding-right: 0px !important;
+}
+
+.fa-trash-alt{
+	margin:0px;
+}
+
+
+i {
+	margin: 10px;
+}
+
+.institution-name{
+	color: #337AB7;
+	font-weight: 40px;
+	margin: 0px 20px;
+	display:inline-block;
+}
+
+.instruction-title{
+	margin-bottom: 20px;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.jumbotron {
+	margin-top: 20px;
+	background-color: #D2C7C1;
+	text-align: center;
+}
+
+.left-nav-btn{
+	float:left;
+}
+
+/*Vertical tabs menu*/
+.list-group-item.active{
+	background-color:#337AB7 !important;
+	border-color: #337AB7 !important;
+	color:white;
+}
+
+.list-group-item:hover{
+	background-color:#b2c7da !important;
+	border-color: #b2c7da !important;
+	color:#4e5152 !important; 
+}
+
+.login-step-2-reg, .login-step-2-log {
+	display: none;
+}
+
+.login-back {
+	padding-top: 11px;
+}
+
+.logo-font {
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+}
+
+.number-box-range{
+	border: 1px solid #d3d5d6 !important;
+	padding: 5px 0px 5px 10px !important;
+	border-radius: 5px !important;
+}
+
+.section-title{
+	text-align: center;
+	font-size: 1.8rem;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #337AB7;
+}
+
+.separate-box{
+	/*border:.2px solid #d3d5d6;*/
+	padding: 0px 80px 80px 10px !important;
+	border-radius: 5px;
+	/*background-color: #e2e4e5;*/
+}
+
+.subsection-title{
+	text-align: center;
+	font-size: 1.6rem;
+	margin: 5px 10px 10px 10px;
+	font-weight: 10px;
+	color: grey;
+}
+
+table{
+	border:.2px solid #d3d5d6;
+	border-radius: 5px;
+}
+
+/*https://datatables.net/forums/discussion/29116/row-height*/
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 8px 8px !important; /* e.g. change 8x to 4px here */
+}
+
+tbody tr.selected {
+  background-color: #b2c7da !important;
+  color: black !important;
+}
+
+th{
+	font-weight: normal !important;
+	color:black;
+	background: #e2e4e5;
+}
+
+
+tr{
+	cursor: pointer;
+	height: 20px !important;
+	padding: 0px !important; 
+	margin: 0px !important;
+	font-size: .9rem;
+}
+
+ul{
+	list-style: none;
+	padding:5px;
+}
+
+.underline-blue{
+	border-bottom: 1px solid #337AB7;
+}
+
+.user-container{
+	/*margin: 50px;
+	margin-bottom: 300px;*/
+	padding:auto;
+	margin:auto;
+	text-align:centre;
+}
+
+
+/*****Media Queries*****/
+
+/*If the screen is bigger than 801px, resize font*/
+@media screen and (min-width: 801px) {
+  div.institution-name {
+    font-size: 1.3rem;
+  }
+
+}
+
+/*If the screen is smaller than 800px, resize font*/
+@media screen and (max-width: 800px) {
+  div.institution-name {
+    font-size: 1rem;
+  }
+}
+
+/*If the screen is bigger than 768px*/
+@media screen and (min-width: 768px) {
+	.menu-title-collapse{
+		display: none !important;
+		/*Use hidden*/
+	}
+	.div-nav{
+		position:relative;
+		margin-bottom: 10px;
+	}
+	.nav-item {
+		margin-right: 20px; /* fixed width */
+	}
+	
+}
+/*If the screen is smaller than 600px, hide font*/
+@media(max-width: 600px) {
+  	div.institution-name {
+    	display: none; 
+    	/*Use hidden*/
+  	}
+  	i{
+  		margin-bottom: 0px;
+  		margin-top: 0px;
+  		text-align: center;
+  	}
+  	tr{
+  		font-size: .8rem;
+  	}
+  	.responsive-space{
+  		padding: 0px !important;
+  		margin: 0px !important;
+  	}
+  	
+}
